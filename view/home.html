@@ -1,0 +1,42 @@
+<div class="bar bar-header bar-positive">
+  	<h1 class="title">首页<a href="#address">北京科技职业技术学院</a></h1>
+</div>
+
+<ion-content class="has-footer has-header">
+	<div class="row">
+		<div class="col">新春特惠</div>
+		<div class="col">水果</div>
+		<div class="col">肉蛋</div>
+		<div class="col">水产</div>
+	</div>
+	<ion-slide-box class="slide-wrapper">
+		<ion-slide>
+			<div class="box blue">
+				<img image-lazy-src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/BC61100608EA9F792E14116E50F4BB8C.JPG" image-lazy-width="640" class="banner-image-wrapper" ng-class="{'details-banner-image': type == 'number'}" src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/BC61100608EA9F792E14116E50F4BB8C.JPG?iopcmd=thumbnail&amp;type=4&amp;width=640">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="box yellow">
+				<img image-lazy-src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/561F71E44BB8A31FCAB12E1D9FCE66BA.JPG" image-lazy-width="640" class="banner-image-wrapper" ng-class="{'details-banner-image': type == 'number'}" src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/561F71E44BB8A31FCAB12E1D9FCE66BA.JPG?iopcmd=thumbnail&amp;type=4&amp;width=640">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="box pink">
+				<img image-lazy-src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/23D8AFF5F81B4578C76BA1CCDBD9C941.JPG" image-lazy-width="640" class="banner-image-wrapper" ng-class="{'details-banner-image': type == 'number'}" src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/23D8AFF5F81B4578C76BA1CCDBD9C941.JPG?iopcmd=thumbnail&amp;type=4&amp;width=640">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="box pink">
+				<img image-lazy-src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/FE13CCCC8F074EC079A1FBB525A4DFEA.JPG" image-lazy-width="640" class="banner-image-wrapper" ng-class="{'details-banner-image': type == 'number'}" src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/FE13CCCC8F074EC079A1FBB525A4DFEA.JPG?iopcmd=thumbnail&amp;type=4&amp;width=640">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="box pink">
+				<img image-lazy-src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/E093FC2CBCC80B603BC6CF7727B3BE23.JPG" image-lazy-width="640" class="banner-image-wrapper" ng-class="{'details-banner-image': type == 'number'}" src="http://missfresh-asvip-production-common.ufile.ucloud.com.cn/entrance_images/E093FC2CBCC80B603BC6CF7727B3BE23.JPG?iopcmd=thumbnail&amp;type=4&amp;width=640">
+			</div>
+		</ion-slide>
+	</ion-slide-box>
+	<div class="list" id="mylist">
+		<single-cart ng-repeat="item in homedata" item="item"></single-cart>
+	</div>
+</ion-content>
